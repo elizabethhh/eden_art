@@ -2,7 +2,6 @@ body > #div
 {
             
             background-color:rgba(0,0,0,0);
-            color:rgb(178,34,34);
             
             font-family: 'Baloo Bhaina', cursive;
             font-weight:900;
@@ -18,17 +17,14 @@ body > #div
 }
 .grow:hover
 {
-        -webkit-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        transform: scale(1.5);
-}
-.color:hover
-{
-    color:	rgb(255,215,0);
+        -webkit-transform: scale(1.4);
+        -ms-transform: scale(1.4);
+        transform: scale(1.4);
 }
 body
 {
-	background: url("https://i.imgsafe.org/096d480992.jpg");
+	
+    background: black;
 }
 h1{
 	font-size:150px;
@@ -39,14 +35,10 @@ p{
 	text-align: center;
 	padding-left: 50px;
 }
-a:active, a:link, a:visited
+a:active, a:link, a:visited, a:hover
 {
 	text-decoration: none;
-	color:rgb(178,34,34);
-}
-a:hover
-{
-    color:rgb(255,215,0);
+	color: white;
 }
 .audioCenter
 {
@@ -56,11 +48,11 @@ a:hover
 
 /*Makes text appear after a few seconds*/
 .animate {
-    -webkit-animation: DISPLAY 30s;
-    -moz-animation: DISPLAY 30s;
-    -o-animation: DISPLAY 30s;
-    animation: DISPLAY 30s;
-    opacity: 0;
+    -webkit-animation: DISPLAY 60s;
+    -moz-animation: DISPLAY 60s;
+    -o-animation: DISPLAY 60s;
+    animation: DISPLAY 60s;
+    opacity: 1;
 }
 @keyframes DISPLAY {
     0% {
