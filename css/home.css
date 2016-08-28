@@ -3,7 +3,7 @@ body > #div
             
             background-color:rgba(0,0,0,0);
             
-            font-family: 'Baloo Bhaina', cursive;
+            font-family: 'Oswald', sans-serif;
             font-weight:900;
             font-size:75px;
             
@@ -12,7 +12,8 @@ body > #div
             
             transition:all 0.3s ease;
 
-            margin-top: 250px;
+            margin-top: 220px;
+            margin-bottom: 50px;
             
 }
 .grow:hover
@@ -24,21 +25,24 @@ body > #div
 body
 {
 	
-    background: black;
+    background: url(http://wallpapercave.com/wp/5a8tXdj.png);
+    background-attachment: fixed;
+    background-position: center; 
 }
 h1{
 	font-size:150px;
 }
 p{
-	font-family: 'Arvo', serif;
+    font-family: 'Lora', serif;
 	font-size: 15px;
 	text-align: center;
 	padding-left: 50px;
+    color: black;
 }
 a:active, a:link, a:visited, a:hover
 {
 	text-decoration: none;
-	color: white;
+	color: rgb(40,40,60);
 }
 .audioCenter
 {
