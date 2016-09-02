@@ -1,8 +1,6 @@
  body {
     overflow-x: hidden;
  }
- /*rgb(178,34,34) red
- rgb(218,165,32) yellow*/
 /* Toggle Styles */
 
 #wrapper {
@@ -61,6 +59,9 @@
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+    font-family: 'Hind Guntur', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
 }
 
 .sidebar-nav li a {
@@ -123,9 +124,16 @@
 }
 a.eden{
     display: inline-block;
+    color: rgb(178,34,34);
+    font-family: 'Oswald', sans-serif;
 }
+a.eden:hover{
+    color: rgb(218,165,32);
+} 
 a.art{
     display: inline-block;
+    color: rgb(218,165,32);
+    font-family: 'Oswald', sans-serif;
 }
 .sidebar-list li a {
     display: block;
