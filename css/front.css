@@ -1,4 +1,4 @@
- body {
+body {
     overflow-x: hidden;
  }
 /* Toggle Styles */
@@ -141,4 +141,7 @@ a.art{
 .text{
     margin-left: 270px;
     margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+    font-size: 20px;
 }
