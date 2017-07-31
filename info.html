@@ -1,117 +1,65 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Eden Art</title>
-<link rel="shortcut icon" type="image/x-icon" href="img/faviconeden.png">
-<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-<style>
-body{
-	font-family: 'Hind Guntur', sans-serif;
-	font-size: 30px;
-	padding: 20px;
-	background-color: white;
-	color: black;
-}
-h1{
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 5px;
-	text-align: center;
-	font-size: 100px;
-	padding-top: 30px;
-}
-/* The side navigation menu */
-.sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0;
-    left: 0;
-    background-color: black; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s;
-    padding-top: 60px; /* Place content 60px from the top */
-}
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-/* The navigation menu links */
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    line-height: 40px;
-    font-family: 'Hind Guntur', sans-serif;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #999999;
-    display: block;
-    transition: 0.3s
-}
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover, .offcanvas a:focus{
-    color: white;
-}
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-a.eden{
-	display: inline-block;
-    color: rgb(178,34,34);
-    font-family: 'Oswald', sans-serif;
-}
-a.eden:hover{
-    color: rgb(218,165,32);
-}
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
+		<link rel="stylesheet" type="text/css" href="css/front.css">
+		
+		<link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
-#main{
-	transition: margin-left .5s;
-	padding: 16px;
-}
+		<title>Eden Art</title>
+		<link rel="shortcut icon" type="image/x-icon" href="img/faviconeden.png">
+	</head>
+	<body>
+		<div class="container-fluid">
+		<!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="frontpage.html" class="eden">
+                        Eden Art
+                    </a>
+                </li>
+                <div class="sidebar-list">
+                <li>
+                    <a href="frontpage.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">Info</a>
+                </li> 
+                <li>
+                    <a href="help.html">Guide</a>
+                </li>            
+                <li>
+                    <a href="mailto:elizabethsong65@yahoo.com">Contact</a>
+                </li>
+                </div>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+		</div>
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-</style>
-</head>
-<body>
+        <div class= "text">
 
-<div id="mySidenav" class="sidenav">
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-<a href="frontpage.html" class="eden">Eden.Art</a>
-<a href="frontpage.html">Home</a>
-
-<a href="info.html">Info</a>
-
-<a href="help.html">Guide</a>
-
-<a href="mailto:elizabethsong65@yahoo.com">Contact</a>
-</div>
-
-<span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776;</span>
-
-<div id="main">
-
-<h1>About 
-<img src="img/untitled.png" align="right"> </h1>
-<br>
-<br>
-<hr>
+        <h1>Welcome!</h1>
         <p>
         I started Eden Art after volunteering with a child on the spectrum through the ASD Climber Foundation. Each week for 4 hours, I would visit him to build his social skills and interact with him, whether that meant playing Pictionary or just having a simple conversation. While he would occasionally not be able to communicate verbally to me, we found a different form of communication-- through drawing. He was able to express himself with pictures in a way that words could not. 
-        <br>
-        Through this experience, I was inspired to reach out to local autism schools to start an art program. After 23 emails and 8 phone calls, one school finally reached out to me: Eden Autism in Princeton. In preparation for the school year, I contacted the assistant director of the school and wrote a proposal for the program. After touring the school and talking to Eden both on the phone and in person, I was approved to start the program!
-        <br>
+        </br>
+        Through this experience, I was inspired to reach out to local autism schools to start an art program. After 23 emails and 8 phone calls, one school finally reached out to me: Eden Autism in Princeton. In preparation for the school year, I contacted the assistant director of the school and wrote a <a href="#">proposal</a> for the program. After touring the school and talking to Eden both on the phone and in person, I was approved to start the program!
+        </br>
         This art program took place every Friday as part of Eden's after school program, which composed of different groups of students from an age range of 5-21 years old. Through Eden Art, students were encouraged to use their creativity to express themselves in a multitude of mediums, including but not limited to watercolor, collages, acrylic, and clay. The primary focus of the program was to allow students to be creative and express themselves in a different way.
-        <br>
+        </br>
         <h4>Why?</h4>
         <p>
         The benefits of art for students on the spectrum are incredible:
@@ -124,22 +72,7 @@ a.eden:hover{
         The art lessons at the program directly engaged students. All activities were extremely hands-on and encouraged students to fully focus on the assignment at hand. The students are able to find a new hobby through the program, and the easy-to-do crafts and activities allow the students to be engaged with the program.
         <ul>4. Visual thinking</ul>
         Many people on the spectrum already tend to think visually or in pictures. With the art program, students are finally given the opportunity to draw out these images in their mind. Many students showed their other interests through the art projects. For instance, one student used clay to model a character from their favorite TV show/movie. 
-
-
- 
-<script>
-/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
-}
-
-/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-}
-</script>
-
-</body>
+        </p>
+        </div>
+	</body>
 </html>
